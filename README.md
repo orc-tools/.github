@@ -20,3 +20,6 @@ NODE_PATH=<a node_modules with playwright> node art/render.mjs
 
 It needs Playwright with Chromium and `cwebp`. Then update the tiles in
 `profile/README.md` to match.
+
+`node art/check.mjs` then confirms each tile in the README matches
+`art/products.mjs` and every picture it names exists in both themes.
